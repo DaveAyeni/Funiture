@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+.container{
+    display: flex;
+    width: 700px;
+    height: 250px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+img{
+    width: 240px;
+    height: 250px;
+    object-fit: cover;
+   
+   
+}
+.p1{
+    font-size: 25px;
+    padding: 15px 15px 0 15px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+    font-weight: bold;
+    opacity: 0.6;
+}
+.p2{
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
